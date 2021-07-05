@@ -1,0 +1,126 @@
+body{
+   height: 100%;
+   width: 100%;
+   margin: 0%;
+    background-image: url("images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.container{
+    padding: 2%;
+}
+a:hover{ 
+color: white;
+text-decoration: none;
+}
+.navbar-brand  {
+    text-decoration: none;
+       float: left;
+    height: 50px;
+    padding: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+
+}
+.collapse a{
+    text-decoration: none;
+    font-size:14px;
+    padding: 15px 15px;
+    font-size:16px;
+    font-weight: bold;
+color: white;
+    text-align: center;
+    border: none;
+}
+.collapse  a:hover{
+    border: none;
+text-decoration: none;
+text-align: center;
+    font-size:14px;
+    padding: 15px 15px;
+    font-weight: bold;
+   color: black;
+}
+.content{
+    padding: 50px;
+    text-align: center;
+    background-image: url("images\bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.info{
+background-color: rgba(0,0,0,0.5);
+overflow:hidden;
+color: white;
+border-radius: 5px;
+margin: 10px;
+}
+h4,p{
+    color: white;
+}
+p a{
+    text-decoration: none;
+    color: white;
+}
+p a:hovers{
+    text-decoration: none;
+    color: white;
+}
+.about {
+    text-align: center;
+    margin: 30px;
+    padding: 25px;
+}
+h1{
+  font-family: sans-serif;
+  font-weight: bold;
+  color: purple;
+  font-size: 50px;
+}
+strong{
+   color: purple; 
+}
+.cd{
+    padding: 40px;
+    margin: 20px;
+}
+form{
+    text-align: left;
+    padding: 10px;
+    margin: 15px;
+}
+input{
+    padding: 10px;
+    margin: 8px;
+    border: 2px solid purple;
+    color: palevioletred;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 100%;
+}
+ 
+button{
+    border-radius: 10px;
+    border: 2px solid gold;
+    background-color: gold;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    margin: 8px;
+    }
+    .container-fluid{
+        padding: 10px;
+        margin-top: 10px;
+    }
+div.gallery img:hover {
+  border: 5px solid white;
+}
+
+div.gallery img {
+  margin: 12px;
+  border: 5px solid #ccc;
+  float: left;
+  border-radius: 8px;
+}
